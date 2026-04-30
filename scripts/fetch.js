@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================
- *  小鈴 🎀 — 清华校园数据抓取引擎
+ *  tsinghua-campus-sync — 清华校园数据抓取引擎
  *  基于 thu-learn-lib，将清华网络学堂的
  *  课表/作业/通知/文件 映射为统一日历结构
  * ============================================
@@ -491,7 +491,7 @@ function saveSyncState(semester, courseCount, stats) {
 // ============ 主流程 ============
 
 async function main() {
-  log('=== 🎀 小鈴 · 校园数据同步 ===\n');
+  log('=== 🏫 清华校园数据同步 ===\n');
 
   // 1. 读配置
   const config = readJSON(CONFIG_PATH);
@@ -785,7 +785,7 @@ async function main() {
   log(`  日历条目: ${stats.calendarEntries}`);
   log(`  时间:     ${new Date().toLocaleString('zh-CN')}`);
   log('='.repeat(45));
-  log('🎀 小鈴随时帮您查询校园信息~\n');
+  log('🏫 数据同步完成，随时可以查询校园信息~\n');
 }
 
 main().catch(err => {

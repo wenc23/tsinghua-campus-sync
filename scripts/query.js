@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================
- *  小鈴 🎀 — 校园数据查询工具
+ *  tsinghua-campus-sync — 校园数据查询工具
  *  查询本地缓存的课表/作业/通知/文件
  * ============================================
  *
@@ -379,7 +379,7 @@ function showStats() {
 function main() {
   const cmd = args[0];
   if (!cmd) {
-    console.log('\n🎀 小鈴 · 校园数据查询\n');
+    console.log('\n🏫 tsinghua-campus-sync · 校园数据查询\n');
     console.log('用法:');
     console.log('  node query.js today             今天');
     console.log('  node query.js week              本周');

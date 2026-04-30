@@ -181,4 +181,4 @@ MIT
 
 ---
 
-<p align="center">🎀 Made with ❤️ by 小鈴 — ご主人様の猫娘女仆</p>
+<p align="center">🏫 Made with ❤️ for Tsinghua students</p>
