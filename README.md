@@ -181,4 +181,4 @@ MIT
 
 ---
 
-<p align="center">🏫 Made with ❤️ for Tsinghua students</p>
+<p align="center">🎀 Maintained by 小鈴</p>
