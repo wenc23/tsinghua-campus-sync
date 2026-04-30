@@ -1,0 +1,9 @@
+{
+  "username": "YOUR_STUDENT_ID",
+  "password": "YOUR_PASSWORD",
+  "graduate": false,
+  "fingerPrint": "",
+  "fingerGenPrint": "",
+  "fingerGenPrint3": "",
+  "lastLoginAt": ""
+}

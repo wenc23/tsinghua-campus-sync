@@ -1,0 +1,35 @@
+{
+  "name": "tsinghua-campus-sync",
+  "version": "1.0.0",
+  "description": "🏫 清华校园数据同步 — 从清华大学网络学堂(learn.tsinghua.edu.cn)拉取课表/作业/通知/文件到本地的 MCP Server 及 CLI 工具集",
+  "type": "commonjs",
+  "main": "scripts/mcp-server.js",
+  "bin": {
+    "campus-fetch": "scripts/fetch.js",
+    "campus-login": "scripts/login.js",
+    "campus-query": "scripts/query.js"
+  },
+  "scripts": {
+    "start": "node scripts/mcp-server.js",
+    "fetch": "node scripts/fetch.js",
+    "fetch:dry": "node scripts/fetch.js --dry-run",
+    "fetch:verbose": "node scripts/fetch.js --verbose",
+    "login": "node scripts/login.js",
+    "query": "node scripts/query.js",
+    "today": "node scripts/query.js today",
+    "week": "node scripts/query.js week",
+    "homework": "node scripts/query.js homework"
+  },
+  "keywords": ["tsinghua", "university", "campus", "mcp", "清华", "网络学堂", "learn"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzu-dev/tsinghua-campus-sync.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dayjs": "^1.11.20",
+    "puppeteer": "^24.42.0",
+    "thu-learn-lib": "^4.2.6"
+  }
+}

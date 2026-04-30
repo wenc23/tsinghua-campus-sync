@@ -1,0 +1,23 @@
+# 运行时数据
+config.json
+_cookies.json
+_sync.json
+courses/
+calendar/
+merged/
+current.json
+semesters.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
