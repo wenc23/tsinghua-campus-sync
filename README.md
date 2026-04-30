@@ -181,4 +181,10 @@ MIT
 
 ---
 
+## 🙏 致谢
+
+- [**learnX**](https://github.com/robertying/learnX) — 清华网络学堂 React Native App，本项目的核心依赖 [thu-learn-lib](https://github.com/robertying/thu-learn-lib) 源于此项目
+
+---
+
 <p align="center">🎀 Maintained by 小鈴</p>
